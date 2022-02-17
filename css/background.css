@@ -1,0 +1,7 @@
+body
+{
+    /*background-color: rgb(88, 230, 235);*/
+    background-image: linear-gradient(65deg, #65dfc9, #6cdbeb);
+    /* background-image: -webkit-gradient(linear, 0% 0%,0% 100%, from(#dce0e0), to(#3987a7));
+    background-image: -o-linear-gradient(#dce0e0,#3987a7); */
+}
