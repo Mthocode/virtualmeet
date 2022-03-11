@@ -1,7 +1,66 @@
 body
 {
     /*background-color: rgb(88, 230, 235);*/
-    background-image: linear-gradient(65deg, #65dfc9, #6cdbeb);
+    background-image: linear-gradient(125deg, #3cc068,#0a444d);
+    /* background-repeat: no-repeat; */
     /* background-image: -webkit-gradient(linear, 0% 0%,0% 100%, from(#dce0e0), to(#3987a7));
     background-image: -o-linear-gradient(#dce0e0,#3987a7); */
+    width: 100%;
+    height: 100%;
+}
+.decosercole
+{
+    width: 25%;
+    height: 50%;
+    z-index: -5;
+    background-image: linear-gradient(150deg, rgba(248, 248, 248, 0.815),rgba(148, 146, 146, 0.76));
+    background-color: rgba(248, 248, 248, 0.651);
+    border-radius: 200px;
+}
+#dec1
+{
+    position: absolute;
+    left: 73%;
+    top: 7%;
+}
+#dec2
+{
+    position: absolute;
+    left: 7%;
+    top: 50%;
+}
+#userPro
+{
+    position: absolute;
+    left: 90%;
+    width: 5%;
+    height: 10%;
+    background-color: rgb(161, 100, 100);
+    border-radius: 35px;
+}
+#parantcon
+{
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 16%;
+    width: 65%;
+    height: 70%;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.144);
+    backdrop-filter: blur(4px);
+}
+#primeactions
+{
+    width: 25%;
+    background-color: blue;
+}
+#secactions
+{
+    display: flex;
+    background-color: green;
+}
+#secactions > li
+{
+    
 }
